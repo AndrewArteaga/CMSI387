@@ -1,2 +1,2 @@
 # CMSI387
-ClassWork and HomeWork for OS
+Classwork and Homework for OS
