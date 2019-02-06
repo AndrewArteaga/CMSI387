@@ -43,9 +43,5 @@ int main(int argc, char *argv[]){
 #### Answer/Explanation:
 Yes, the sleeping thread can print out its periodic messages while the main thread is waiting for keyboard input. Yes, the main thread can read input, kill the sleeping thread, and print a message while the sleeping thread is in the early part of one of its five-second sleeps.
 ### 6)
-
 #### Answer/Explanation:
- - a) raw array :
-   - void shuffle(int array[], int arrlength)
- - b) std::array :
-   - void shuffle(std::array<int, arrlength>&, array)
+ 
