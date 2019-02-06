@@ -1,2 +1,3 @@
 # CMSI387
-ClassWork and HomeWork for OS
+Classwork and Homework for OS\
+Andrew Arteaga, Simon Wroblowski, Riley Persily
