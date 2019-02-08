@@ -44,4 +44,6 @@ int main(int argc, char *argv[]){
 Yes, the sleeping thread can print out its periodic messages while the main thread is waiting for keyboard input. Yes, the main thread can read input, kill the sleeping thread, and print a message while the sleeping thread is in the early part of one of its five-second sleeps.
 ### 6)
 #### Answer/Explanation:
- 
+![](OSChart.jpg)
+![](DataTable.jpg)
+The order that has the shortest average turnaround time is the sequence T1T2T3, the first thread goes, then the second, and finally the third. The name of the scheduling policy that produces this order is the FCFS, first come first serve, policy.
