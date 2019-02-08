@@ -45,5 +45,5 @@ Yes, the sleeping thread can print out its periodic messages while the main thre
 ### 6)
 #### Answer/Explanation:
 ![](OSChart.jpg)
-![](DataTable.jpg)
+![](DataTable.jpg)\n
 The order that has the shortest average turnaround time is the sequence T1T2T3, the first thread goes, then the second, and finally the third. The name of the scheduling policy that produces this order is the FCFS, first come first serve, policy.
