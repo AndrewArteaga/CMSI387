@@ -1,0 +1,17 @@
+Arteaga/Persily/Wroblewski
+
+CMSI 387 Operating Systems
+   Semester Project
+===================================
+
+This is an awesome idea that will be very useful for system
+administrators and users alike.  It could be used to reorder
+tasks and processes which may need to operate at different
+priorities for different applications.
+
+This is similar to another project, but different enough that
+both teams can claim originality for their ideas.  I'm excited
+to see what develops with this!
+
+Project approved.  Good work and good luck!
+
