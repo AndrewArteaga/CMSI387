@@ -185,9 +185,9 @@ int main(int argc, char **argv) {
 }
 ```
 
-![](consoleListOfProcesses.jpeg =307x217)
+![](consoleListOfProcesses.jpeg)
 
-![](familyTreeOfProcesses.jpeg =452x352)
+![](familyTreeOfProcesses.jpeg)
 
 #### Answer/Explanation
 
