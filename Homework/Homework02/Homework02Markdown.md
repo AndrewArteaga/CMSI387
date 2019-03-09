@@ -37,8 +37,9 @@ public class BoundedBufferTester extends BoundedBuffer {
       System.out.println( "\n3 TESTS FOR insert():" );
       try { 
          oofTesterOne.insert(o);
+         System.out.println("Object Inserted");
       }
-      catch( Exception e ) { System.out.println ( "Object Inserted" ); }
+      catch( Exception e ) { System.out.println ( "Exception: " + e ); }
    }
   
     /**
@@ -50,8 +51,9 @@ public class BoundedBufferTester extends BoundedBuffer {
       try { 
          oofTesterOne.insert(z);
          oofTesterOne.retrieve();
+         System.out.println("Object Retrieved");
       }
-      catch( Exception e ) { System.out.println ( "Object Retrieved" ); }
+      catch( Exception e ) { System.out.println ( "Exception: " + e ); }
    }
 }
 ```
