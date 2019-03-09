@@ -25,7 +25,7 @@ public class BoundedBufferTester extends BoundedBuffer {
    */
    public static void main ( String [] args ) throws Exception {
       test_insert();              // 1 tests
-      test_retrieve();            // 3 tests
+      test_retrieve();            // 1 tests
    }
      
     /**
@@ -33,11 +33,13 @@ public class BoundedBufferTester extends BoundedBuffer {
      */
    public static void  test_insert() {
       BoundedBuffer oofTesterOne = new BoundedBuffer();
+      BoundedBufferModifiedClass oofTesterTwo = new BoundedBufferModifiedClass();
       Object o = new Object();
-      System.out.println( "\n3 TESTS FOR insert():" );
+      System.out.println( "\n TESTS FOR insert():" );
       try { 
          oofTesterOne.insert(o);
-         System.out.println("Object Inserted");
+         oofTesterTwo.insert(o);
+         System.out.println("Objects Inserted");
       }
       catch( Exception e ) { System.out.println ( "Exception: " + e ); }
    }
@@ -66,9 +68,14 @@ Tester that tests the insert and retrieve methods.
 
 ```java
 public class BoundedBufferModifiedClass {
-    private Object[] buffer = new Object[20]; // arbitrary size
-    private int numOccupied = 0;
-    private int firstOccupied = 0;
+    public Object[] buffer;
+    public int numOccupied;
+    public int firstOccupied;
+    public BoundedBufferModifiedClass() {
+        this.buffer = new Object[20]; // arbitrary size
+        this.numOccupied = 0;
+        this.firstOccupied = 0;
+    }
     /* invariant: 0 <= numOccupied <= buffer.length
     0 <= firstOccupied < buffer.length
     buffer[(firstOccupied + i) % buffer.length]
@@ -81,7 +88,9 @@ public class BoundedBufferModifiedClass {
         buffer[(firstOccupied + numOccupied) % buffer.length] = o;
         numOccupied++;
         // in case any retrieves are waiting for data, wake them
-        notifyAll();
+        if(buffer.length == 0) {
+            notifyAll();
+        }
     }
     public synchronized Object retrieve() throws InterruptedException {
         while(numOccupied == 0)
@@ -93,9 +102,9 @@ public class BoundedBufferModifiedClass {
         numOccupied--;
         // in case any inserts are waiting for space, wake them
         // #4
-        if (buffer.length == 0 || buffer.length == 20) {
+        if (buffer.length == 20) {
             notifyAll();
-        };
+        }; 
         return retrieved;
     }
 }

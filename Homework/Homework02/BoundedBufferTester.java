@@ -6,7 +6,7 @@ public class BoundedBufferTester extends BoundedBuffer {
    */
    public static void main ( String [] args ) throws Exception {
       test_insert();              // 1 tests
-      test_retrieve();            // 3 tests
+      test_retrieve();            // 1 tests
    }
      
     /**
@@ -14,11 +14,13 @@ public class BoundedBufferTester extends BoundedBuffer {
      */
    public static void  test_insert() {
       BoundedBuffer oofTesterOne = new BoundedBuffer();
+      BoundedBufferModifiedClass oofTesterTwo = new BoundedBufferModifiedClass();
       Object o = new Object();
-      System.out.println( "\n3 TESTS FOR insert():" );
+      System.out.println( "\n TESTS FOR insert():" );
       try { 
          oofTesterOne.insert(o);
-         System.out.println("Object Inserted");
+         oofTesterTwo.insert(o);
+         System.out.println("Objects Inserted");
       }
       catch( Exception e ) { System.out.println ( "Exception: " + e ); }
    }
