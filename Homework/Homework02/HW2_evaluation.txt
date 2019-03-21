@@ -1,0 +1,28 @@
+
+
+CMSI 387 Operating Systems
+Results for Homework #2 Evaluation
+==================================
+
+Question 1 mutex reversing:          5/ 5 points
+Question 2 auditing code change:     5/ 5 points
+Question 3 test program:            20/20 points
+Question 4 notifyall() addition:    10/10 points
+Question 5a 2-phase locking:         5/ 5 points
+Question 5b short read locks:        5/ 5 points
+Question 5c snapshot isolation:      5/ 5 points
+Question 6 virtual address xlate:    5/ 5 points
+Question 7 calc. explanation:        5/ 5 points
+Question 8 loop 4096 analysis:      20/20 points
+Question 9 fork() tree:             10/15 points
+
+Total 95 out of 100 = 95.00% which is an A
+
+Comments:
+---------
+I had to take 5 points off from problem 9 because your fork()
+tree isn't quite right.  The configuration for what forks what
+looks a bit different.  If you have questions, let's talk about
+it and I'll show you what I mean.
+
+Nice work!
