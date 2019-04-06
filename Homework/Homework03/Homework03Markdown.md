@@ -221,7 +221,7 @@ int main () {
 
 #### Answer/Explanation
 
-Apparently the lyrics for All-Star by Smash Mouth doesn't contain the character x, therefore it is a failure.
+Apparently the lyrics for All-Star by Smash Mouth doesn't contain the character x, therefore it is a failure. But for most files, small and large, the time it took to find the x was instantaneous.
 
 ### 5)
 
