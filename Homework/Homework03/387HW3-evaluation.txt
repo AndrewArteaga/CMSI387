@@ -1,0 +1,38 @@
+
+Evaluation for Homework 3
+CMSI 387 - Operating Systems
+============================
+
+Question 1: dining philosophers program:   15.00 points out of 20 possible
+Question 2: why immune explanation     :   10.00 points out of 10 possible
+Question 3: file processing "C" program:   20.00 points out of 20 possible
+Question 4: mmap program "C" program   :   20.00 points out of 20 possible
+Question 5: appropriate class explained:   10.00 points out of 10 possible
+
+Total possible points:     80.00 points
+           your score:     75.00 points
+       homework total:     75.00/80.00 = 93.75% which is an A-minus
+
+Comments:
+---------
+I laughed out loud at "goForDinner()" ~~ very inventive!  I don't think the
+code is actually doing a synchronized situation, though.  It looks like you
+are just forcing things to go in order, but that may just be due to the code
+of the resource hierarchy method.  The sync stuff is harder in "C", so I give
+you kudos for attempting it in that language!!
+
+I edited your mmapTester.txt file and added an X at the end.  Your program
+found it, so that works fine!
+
+
+Nice work!
+
+Semester so far:
+
+   homework01 @ 10%:  100.00% = 10.00 points
+   homework02 @ 10%:   95.00% =  9.50 points
+   homework03 @ 10%:   93.75% =  9.38 points
+   particip.  @ 10%:  100.00% = 10.00 points
+   proj pt. 1 @ 20%:  100.00% = 20.00 points
+
+       total points:  58.88 out of 60.00 = 98.13% which is an A-plus
