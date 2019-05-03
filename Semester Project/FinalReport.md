@@ -1,6 +1,7 @@
 # Final Report
 #### Riley Persily, Andrew Arteaga, Simon Wroblewski
 ##Kernel Modification
+
 Our group’s kernel project has been a long and frustrating journey.  From Kernel panics to crashed computers, the obstacles have been anything but in short supply.  Although the challenges persisted through the projects entirety, we found it to be a great learning experience, largely due to these challenges.  Addressing these problems forced us to research them, giving us a deeper understanding of the Linux operating system and its core components (i.e. the kernel).  Through our combined efforts, we were able to overcome these challenges and produce a modified linux module with functionality similar to our original objective.
 
 When the project was in it’s preliminary stages, the instructions on building the kernel were slightly ambiguous and required a large amount of independent research.  Our group started the project with these instructions and after a couple hours of research and countless crashes of our virtual machine, we were able to build the new kernel. Much of the process was found on the wiki.ubuntu.com website (url: https://wiki.ubuntu.com/Kernel/BuildYourOwnKernel) given to us in Dr. Johnson’s instructions.
