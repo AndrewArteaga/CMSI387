@@ -1,6 +1,6 @@
 # Final Report
 #### Riley Persily, Andrew Arteaga, Simon Wroblewski
-##Kernel Modification
+## Kernel Modification
 
 Our group’s kernel project has been a long and frustrating journey.  From Kernel panics to crashed computers, the obstacles have been anything but in short supply.  Although the challenges persisted through the projects entirety, we found it to be a great learning experience, largely due to these challenges.  Addressing these problems forced us to research them, giving us a deeper understanding of the Linux operating system and its core components (i.e. the kernel).  Through our combined efforts, we were able to overcome these challenges and produce a modified linux module with functionality similar to our original objective.
 
